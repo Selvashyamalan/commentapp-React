@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.comment-item {
+  margin-bottom: 20px;
+}
+.icon-name-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+* {
+  /* border: 1px solid red; */
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  color: #ffffff;
+  flex-shrink: 0;
+}
+.name-comment-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+.name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+.name-time-container {
+  display: flex;
+  align-items: center;
+}
+.comment-post-time {
+  color: #94a3b8;
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 25px;
+}
+.comment {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.like-delete-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.like-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #7e858e;
+  font-size: 16px;
+  font-weight: 500;
+}
+.liked-text {
+  color: #0ea5e9;
+}
+.like-image {
+  width: 23px;
+  height: 23px;
+}
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
